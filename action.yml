@@ -1,4 +1,4 @@
-name: 'Move to devops column'
+name: 'move-card-action'
 description: 'Move card from project pipeline to devops pipeline'
 inputs:
   my_github_token:  # id of input
