@@ -1,7 +1,9 @@
 name: 'move-card-action'
 description: 'Move card from project pipeline to devops pipeline'
 inputs:
-  my_github_token:  # id of input
+  MY_GITHUB_TOKEN:  # id of input
+    required: true
+  ISSUE_NUMBER:
     required: true
 outputs:
   time: # id of output
